@@ -33,7 +33,7 @@ class Question
         else
             puts "#{current_player.name}: Seriously? No! \u{1F614}"
             puts " "
-            current_player.reduce_life_count
+            current_player.reduce_life
         end
 
         update_turn(turn)

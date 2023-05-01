@@ -6,7 +6,7 @@ class Player
     end
 
     #reduce life by one when lost.
-    def reduce_life_count
+    def reduce_life
     self.lives -= 1
   end
 end
